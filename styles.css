@@ -8,7 +8,7 @@ height: 100vh;
 margin: 0;
 background-color: #222;
 background-image: url("https://source.unsplash.com/1600x900/?landscape");
-background-position: center;
+background-size: cover;
 background-repeat: no-repeat;
 position:relative;
 }
