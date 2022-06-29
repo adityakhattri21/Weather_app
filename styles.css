@@ -8,6 +8,8 @@ height: 100vh;
 margin: 0;
 background-color: #222;
 background-image: url("https://source.unsplash.com/1600x900/?landscape");
+background-position: center;
+background-repeat: no-repeat;
 position:relative;
 }
 
@@ -23,7 +25,7 @@ position:relative;
 .nav h1{
   font-family: 'Oxygen', sans-serif;
   margin-left: 10px;
-  margin-right: 950px;
+  margin-right: 70%;
   display: inline-block;
 }
 
@@ -83,3 +85,22 @@ font-size: 120%;
 font-family: inherit;
 width: calc(100%-100px);
 }
+
+@media(max-width: 1024px){
+  .nav h1{
+    margin-right:50%;
+  }
+
+  .card{
+    position: absolute;
+    top : 150px;
+  }
+}
+
+@media(max-width : 600px){
+  .card{
+    position: absolute;
+    top: 200px;
+  }
+}
+
